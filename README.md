@@ -1,12 +1,6 @@
-# Paul's dotfiles
+# Brant's dotfiles
 
-[mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
-
-This repo is mostly for me but you're welcome to make suggestions. Mathias's is the project to fork.  I'm mostly catching up to him, @cowboy, and @gf3.
-
-## install the necessary apps
-
-My basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, etc.
+Copied from [Paul's dotfiles](https://github.com/paulirish/dotfiles).
 
 ## private config
 
@@ -33,22 +27,6 @@ export PATH
 Install [Dotfiles Syntax Highlighting](https://github.com/mattbanks/dotfiles-syntax-highlighting-st2) via [Sublime Text 2 Package Control](http://wbond.net/sublime_packages/package_control)
 
 
-### Sensible OS X defaults
-
-When setting up a new Mac, you may want to set some sensible OS X defaults:
-
-```bash
-./.osx
-```
-
-## Similar projects
-
-I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
-
-
-
-
-
 ## overview of files
 
 ####  Automatic config
@@ -64,11 +42,6 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 * `.functions`
 * `.extra` - not included, explained above
 
-#### manual run
-* `install-deps.sh` - random apps i need installed
-* `.osx` - run on a fresh osx machine
-* `.brew` - homebrew initialization
-
 #### git, brah
 * `.git`
 * `.gitattributes`
@@ -77,11 +50,3 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 
 * `.inputrc` - config for bash readline
 
-
-## Installation
-
-```bash
-git clone https://github.com/paulirish/dotfiles.git && cd dotfiles && ./sync.sh
-```
-
-To update later on, just run the sync again.
