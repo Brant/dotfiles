@@ -10,11 +10,7 @@ I do something nice with my `PATH` there:
 
 ```shell
 # PATH like a bawss
-      PATH=/opt/local/bin
-PATH=$PATH:/opt/local/sbin
-PATH=$PATH:/bin
-PATH=$PATH:~/.rvm/bin
-PATH=$PATH:~/code/git-friendly
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # ...
 
 export PATH
@@ -24,7 +20,7 @@ export PATH
 
 …is really important. even for these files.
 
-Install [Dotfiles Syntax Highlighting](https://github.com/mattbanks/dotfiles-syntax-highlighting-st2) via [Sublime Text 2 Package Control](http://wbond.net/sublime_packages/package_control)
+Install [Dotfiles Syntax Highlighting](https://sublime.wbond.net/packages/Dotfiles%20Syntax%20Highlighting) via [Sublime Text Package Control](https://sublime.wbond.net/installation)
 
 
 ## overview of files
