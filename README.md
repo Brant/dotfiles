@@ -11,9 +11,6 @@ I do something nice with my `PATH` there:
 ```shell
 # PATH like a bawss
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-# ...
-
-export PATH
 ```
 
 ## Syntax highlighting
